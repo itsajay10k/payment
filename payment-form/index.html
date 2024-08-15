@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Payment-Gatway</title>
+</head>
+<body>
+    <header>
+       <div class="box">
+        <div class="left">
+            <div class="heading">Billings Address</div>
+            <form action="#">
+                Full name
+                <input type="text" placeholder="Enter Your Name">
+                Email
+                <input type="text" placeholder="Enter Your Email">
+                Address
+                <input type="text" placeholder="Enter Your Address">
+                City
+                <input type="text" placeholder="Enter Your City">
+                <div id="zip">
+                    <div>State
+                    <label for="">
+                        <select name="" id="">
+                        <option selected name="" id="">Choose State</option>
+                        <option name="" id="">Madhya Pradesh</option>
+                        <option name="" id="">Uttar Pradesh</option>
+                        <option name="" id="">Delhi</option>
+                        </select>
+                       
+                    </label>
+                    </div>
+
+
+                    <div id="code">Zip Code
+                    <input type="number" placeholder="Zip Code">
+                    </div>
+
+                </div>
+            </form>
+            
+        </div>
+
+        <div class="right">
+            <div class="heading">Payment Details</div>
+            <form action="#">
+                Accepted Cards
+                <br>
+                <img id="img" src="payment.png" alt="" width="50%%">
+                <br>
+                Card Number
+                <input type="text" placeholder="Enter Your Card Number">
+                Exp Month
+                <input type="text" placeholder="Enter Your Month">
+                <br>
+                <div id="zip">
+                    <div id="year">Exp Year
+                        <br>
+                    <label class="years" for="">
+                        <select name="" id="">
+                        <option selected name="" id="">Choose Year</option>
+                        <option name="" id="">2024</option>
+                        <option name="" id="">2025</option>
+                        <option name="" id="">2026</option>
+                        </select>
+                       
+                    </label>
+                    </div>
+                    
+
+                    
+                    <div id="cvv">CVV
+                    <input type="number" placeholder="CVV">
+                    </div>
+
+                </div>
+            </form>
+
+
+            <input id="btn" type="submit" value="Proceed To Pay">
+            
+        </div>
+       </div>
+
+    </header>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
